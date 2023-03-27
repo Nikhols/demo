@@ -9,6 +9,13 @@
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "profile": {
-    "name": "typicode213"
+    "success": false,
+    "message": "Ошибка при создании расчета",
+    "errors": [
+      {
+        "code": "LKA.ERR.0118",
+        "description": "Расчет, с указанными данными, дублирует существующий"
+      }
+    ]
   }
 }
