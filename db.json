@@ -11,4 +11,14 @@
   "profile": {
     "name": "typicode"
   }
+  "error": {
+    "success": false,
+    "message": "Ошибка при создании расчета",
+    "errors": [
+        {
+            "code": "LKA.ERR.0118",
+            "description": "Расчет, с указанными данными, дублирует существующий",
+        }
+      ]
+  }
 }
